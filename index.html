@@ -52,8 +52,36 @@
 
 	git bisect start = busca
 	git bisect bad HEAD = dizeno que o commit é ruim
-	gir bisect goot idCommit3534545 = dizendo que commit é bom e faz a busca 
-	
+	git bisect goot idCommit3534545 = dizendo que commit é bom e faz a busca 
+
+	git log --pretty=oneline = imprimir em linha
+	git log --pretty=full = imprimir com authos e mais algumas opções
+	git log -p = mostra as alterações feitas 
+
+	git diff (nome branch)/master = verifica diferença entre branchs
+	git merge (nome branch)/(nome branch 2) = faz merge entre as branchs
+
+	git log --graph = mostra as trilhas das branchs 
+
+	git cherry-pick id9878779 = adicionar commits especifico na master
+
+	========== Config ===========
+	GitConfig = arquivo que guarda configurações como atalhos (Alias)
+
+	ex: dentro do gitconfig 
+
+		[alias]
+			st = status
+			co = checkout
+			envia = !git checkout master && git pull && git checkout .....
+
+
+	fremeWorks
+
+		git-cola = direto no terminal
+		
+
+
 
 
 </body>
