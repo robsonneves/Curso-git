@@ -39,7 +39,22 @@
 	editar arquivo add novamente o arquivo 
 	git add (nome do arquivo)
 	git rebase --continue
+
+	git checkout (nome do arquivo) = antes de dar o add retorna o arquivo sem as modificações
+	git reset HEAD (nome do arquivo) = quando arquivo ja esta add , retira o add desse arquivo
+	git reset idCommit3453454354354353535b  = desfas commit não as alterações
+	git revert idCommit090809808328094328   = desfas somente aquele commit especifico
+	git stash = guardar alteração sem fazer add ou commit 
+	git stash list = verificar se tam algo no stash
+	git stash pop = retoma o ultimo arquivo no stash
+	git stash apply (numero do stash ex(stash@{0})) = retoma stash especifico
+	git stash drop = limpar stash
+
+	git bisect start = busca
+	git bisect bad HEAD = dizeno que o commit é ruim
+	gir bisect goot idCommit3534545 = dizendo que commit é bom e faz a busca 
 	
+
 
 </body>
 </html>
