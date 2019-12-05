@@ -7,4 +7,50 @@ GitHub Curso 01
   # Verificar versão 
   git --version
   
-  #
+  # Inicializar repositorio, dentro da pasta  
+  git init
+  
+  # Status do seu repositorio
+  git status
+  
+  # Adicionar arquivo para ser monitorado pelo git
+  git add . ( todos os docs)
+  
+  # Adicionar commit 
+  git commit -m 'Mensagem descritiva'
+  
+  # Historicos de alteração 
+  git log 
+  
+  # Modificar configurações 
+  git config --local --global
+  git config --local user.name 'nome'
+  git config user.email
+  git config user.name
+  
+  git log --oneline  -> resumo das alterações
+  git lob -b         -> expecificação de cada alteração
+  
+  # git ignore
+   .gitignore
+      ide-config (arquivo)
+      ide/  (pasta)
+      
+  # Sincronizar com o gitHub
+  mkdir servidor
+  git init --bare 
+  
+  git remote add local (url, endereco no c:)
+  git remote -v (verificar caminho do repositorio)
+  git clone /c/users/alura.... nomePasta
+  
+  
+  
+  
+      
+   
+   
+  
+  
+  
+  
