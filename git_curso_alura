@@ -44,6 +44,15 @@ GitHub Curso 01
   git remote -v (verificar caminho do repositorio)
   git clone /c/users/alura.... nomePasta
   
+  git push local master
+  
+  # pegar repositorio remoto
+  git pull
+  git remote rename original local
+  git pull local master
+  
+  
+  
   
   
   
