@@ -54,6 +54,66 @@ GitHub Curso 01
   git remote rename original local
   git pull local master
   
+  # Vericar branch existentes
+  git branch
+  
+  # Criar nova branch
+  git branch nomeBranch
+  
+  # Mudar de branch
+  git checkout nomeDaBranchQueQuerEstar
+  
+  # Adicionar branch e já começar a usar 
+  git checkout -b nomeBranch
+  
+  # Merge master, estar na branch master e fazer merge com outra branch
+  git merge nomeBranch
+  
+  # Fazer o merge depois, estar na master
+  git rebase nomeBranch
+  
+  # Desfazer alteração antes de fazer o add, commit, push
+  git chackout -- nomeDoArquivo
+  
+  # Desfazer alteração add
+  git reset HEAD nomArquivo (e fazer mais o passo anterior )
+  
+  # Desfazer alteração add + commit 
+  git log (verificar o commit que foi feito )
+  git revert __LOG__
+  
+  # Guardar pra deposi o que foi feito
+  git stash 
+  git stash list 
+  
+  # Voltar a trabalhar na stash
+  git stash apply numeroDaStash
+  git stash drop
+  
+  # Retorna o que estava trabalhando pra branch
+  git stash pop
+  
+  # Reperar um estado especifico do projeto
+  git log --oneline
+  git checkout numeroBranch
+  git checkout -b nomeNovoBranch
+  
+  # Verificar diferenças entre as branchs
+  git diff numeroBranch..numeroOutraBranch
+  
+  # Verificar diferenças
+  git diff 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
