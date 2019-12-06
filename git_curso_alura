@@ -10,6 +10,9 @@ GitHub Curso 01
   # Inicializar repositorio, dentro da pasta  
   git init
   
+  # Remover pasta do GIT
+  rm -rf .git
+  
   # Status do seu repositorio
   git status
   
